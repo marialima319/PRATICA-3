@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<fieldset>
+    <legend> Escolha seus Produtos </ legend>
+    <h3>{{mensagem}}</h3>
+    <div>
+      <input type = "checkbox" id = "secador de cabelo" name = "interesse" value = "secador de cabelo">
+      <label for = "secador"> Secador de Cabelo - R$ 500,00 </ label>
+    </ div>
+    <div>
+      <input type = "checkbox" id = "chapinha" name = "chapinha de cabelo" value = "chapinha de cabelo">
+      <label for = "chapinha"> Chapinha de Cabelo - R$ 200,00 </ label>
+    </ div>
+    <div>
+      <input type = "checkbox" id = "escova" name = "escova modeladora" value = "escova modeladora">
+      <label for = "escova"> Escova Modeladora - R$ 300,00</ label>
+    </ div>
+    <div>
+      <input type = "checkbox" id = "babyliss" name = "babyliss" value = "babyliss">
+      <label for = "baby"> Babyliss - R$ 150,00</ label>
+    </ div>
+</ fieldset>
+{% endblock %}
